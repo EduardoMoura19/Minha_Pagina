@@ -1,0 +1,163 @@
+body {
+    font-family: 'roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Links */
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #af71bb;
+}
+
+a:active {
+    color: #af71bb;
+}
+
+
+/* grid */
+
+.linha {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0px;
+}
+
+
+/* Imagens */
+
+#img1 {
+    max-width: 20%;
+    margin: 10% 1% 0 0;
+}
+
+#insta {
+    width: 10%;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+#twitter {
+    width: 10%;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+#gmail {
+    width: 10%;
+}
+
+#referencia {
+    margin-top: 30%;
+    margin-bottom: -30%;
+}
+
+
+/* Corpo */
+
+#navegacao {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    background: #6a097d;
+    padding: 0.4%;
+}
+
+#navegacao ul li {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-right: 2%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11%;
+    width: 100%;
+    height: 100%;
+}
+
+.informacao {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 21%;
+    width: fill;
+    height: 100%;
+}
+
+#sobremim {
+    background: rgba(0, 0, 0, 0.400) center;
+    background-image: url("Imagens/SobreMim.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hobbies {
+    background: url("Imagens/Hobbies.jpg") center;
+    background-size: cover;
+}
+
+#curiosidades {
+    background: url("Imagens/Curiosidades.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contato {
+    background: url();
+    background-size: cover;
+}
+
+.coluna.col3 {
+    margin: 21% 0 0 2%;
+}
+
+h1 {
+    margin-top: 6%;
+}
+
+h3 {
+    font: bold;
+}
+
+.info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sociais {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Rodapé */
+
+#rodape {
+    background: #6a097d;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1%;
+    margin: 0;
+}
